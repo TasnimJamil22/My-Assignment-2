@@ -107,6 +107,8 @@ footer{
     align-items: center;
     padding: 0px;
     width:2000px;
+
+    
 }
 .logo-icon{
       
@@ -129,20 +131,29 @@ footer{
 .logo-icon  .football img{
     width: 483.87px;
     height: 110px;
+    
      
     
 }
 .logo-icon .icon img{
     height:32px;
     width:32px;
-      
-     
+    right: 97px;
 }
+.logo-icon .icon{
+    width: 170px;
+    height: 32px;
+    margin-left: 200px;
+    justify-content: center;
+    }
 .logo-icon  .football p{
-font-style: normal;
-font-weight: normal;
-font-size: 18px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    margin-left: 150px;
 }
+ 
+
 /* media queries */
 
 /* mobile devices */
@@ -185,25 +196,24 @@ font-size: 18px;
     }
     .players{
         grid-template-columns: repeat(1,1fr);
+          
 
     }
     .player{
         flex-direction: column;
-
-         
+          margin-left: ;
     }
-     footer{
-
-        flex-direction: column;
-        height:50px;
-        width:100%;
+    /* footer */
+    footer{
          
-          
-
+         
+        
     }
-    .logo-icon {
-        height:30px;
-        width:100% ;
+      
+   
+     
+         
+        
         
          
     }
