@@ -1,13 +1,16 @@
  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
 body{
     font-family: 'Poppins', sans-serif;
+    
 }
 .header{
     background-color: #2D25A0;
     display: flex;
     justify-content: center;
+    width: 1440px;
+height: 677px;
 }
-.football-header{
+.top{
     color:#FFFFFF;
     font-weight: bold;
     font-size: 25px;
@@ -21,7 +24,7 @@ body{
 
 
 }
-.football-header:hover{
+.top:hover{
     width: 800px;
     height: 300px;
 }
@@ -34,7 +37,7 @@ body{
     text-decoration: none;
     font-size: 16px;
 }
-.football-image img{
+.top img{
     width:556px;
     height: 438px;
     margin-top:60px;
@@ -53,6 +56,7 @@ section{
     grid-row-gap:30px;
     grid-column-gap:30px;
     justify-content: center;
+    width:1400px;
      
     
      
@@ -62,6 +66,8 @@ section{
     box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
     width: 330px;
     height: 474px;
+    display: flex;
+    flex-direction:column;
     
     
 }
@@ -94,31 +100,118 @@ section{
 
 } 
 /* footer starts */
-.logo-icon{
-      
+footer{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     padding: 0px;
+    width:2000px;
+}
+.logo-icon{
+      
+    display:  flex;
+    flex-direction: column;
+    justify-content: center;
+     
+    padding: 0px;
     margin-top: 60px;
 
+    width: 483.87px;
+    height: 213px;
+    left: 475px;
      
+    top: 3474px;
+    margin-left: 80px;
+    margin-right: 680px;
+        
 }
-.logo-icon .logo img{
+.logo-icon  .football img{
     width: 483.87px;
     height: 110px;
-    margin: 20px 0px;
+     
     
 }
 .logo-icon .icon img{
     height:32px;
     width:32px;
-     
+      
      
 }
-.logo-icon .copyright p{
+.logo-icon  .football p{
 font-style: normal;
 font-weight: normal;
 font-size: 18px;
 }
+/* media queries */
+
+/* mobile devices */
+@media only screen and (max-width:688px) { 
+    /* header */
+    .header {
+        flex-direction: column;
+         
+        width: 400px;
+        height: 780px;
+        left: 0px;
+        top: 0px;
+        }
+    .top h1{
+        width: 278px;
+        height: 138px;
+        left: 16px;
+        top: 112px;
+        font-size: 36px;
+        line-height: 50px;
+        margin-left: 50px;
+    }
+    .top img{
+        width: 329px;
+        height: 259.17px;
+        left: 344px;
+        top: 374px;
+    }
+     .button{
+        width: 88px;
+        height: 24px;
+        left: 24px;
+        top: 10px;
+        margin-left: 50px;
+         
+     }
+    /* section */
+     section,  footer {
+        width:100%;
+    }
+    .players{
+        grid-template-columns: repeat(1,1fr);
+
+    }
+    .player{
+        flex-direction: column;
+
+         
+    }
+     footer{
+
+        flex-direction: column;
+        height:50px;
+        width:100%;
+         
+          
+
+    }
+    .logo-icon {
+        height:30px;
+        width:100% ;
+        
+         
+    }
+    
+
+    
+         
+
+    
+}
+
