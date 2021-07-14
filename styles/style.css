@@ -93,3 +93,32 @@ section{
      
 
 } 
+/* footer starts */
+.logo-icon{
+      
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    margin-top: 60px;
+
+     
+}
+.logo-icon .logo img{
+    width: 483.87px;
+    height: 110px;
+    margin: 20px 0px;
+    
+}
+.logo-icon .icon img{
+    height:32px;
+    width:32px;
+     
+     
+}
+.logo-icon .copyright p{
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+}
