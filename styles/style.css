@@ -11,12 +11,21 @@ body{
     color:#FFFFFF;
     font-weight: bold;
     font-size: 25px;
-     
     text-align: left;
     height:150px;
     width:400px;
     margin-top:70px;
+    transition-property: width, height;
+    transition-duration: 2s;
+    
+
+
 }
+.football-header:hover{
+    width: 800px;
+    height: 300px;
+}
+
 .button{
     background-color: #E02C6D;
     padding:10px 24px;
