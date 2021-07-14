@@ -35,14 +35,17 @@ body{
 /* section starts */
 section{
     margin-top:70px;
+     
 }
 .players{
     display: grid;
-    grid-template-columns: repeat(3,1fr);
-    align-items:center;
-    margin-left:80px;
+    grid-template-columns: repeat(3,330px);
+     margin-left:290px;
     grid-row-gap:30px;
-    grid-column-gap:10px;
+    grid-column-gap:30px;
+    align-items: center;
+     
+    
      
 }
 .player{
@@ -50,9 +53,17 @@ section{
     box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
     width: 330px;
     height: 474px;
+    
+    
 }
 .player-image img{
     width: 300px;
     height: 256px;
-    padding:15px 15px 203px 15px;
+    padding:15px 15px 0px 15px;
+}
+.info{
+
+    margin:0px 15px;
+    font-weight: bold;
+    font-size: 28px;
 }
