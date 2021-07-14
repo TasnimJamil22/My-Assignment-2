@@ -40,11 +40,10 @@ section{
 .players{
     display: grid;
     grid-template-columns: repeat(3,330px);
-     margin-left:290px;
-     margin-right:200px;
+      
     grid-row-gap:30px;
     grid-column-gap:30px;
-    align-items: center;
+    justify-content: center;
      
     
      
