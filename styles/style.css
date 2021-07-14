@@ -75,4 +75,21 @@ section{
     margin:0px 15px;
     font-weight: bold;
     font-size: 28px;
+    
 }
+.players .player .info h3{
+    margin-top:10px;
+    margin-bottom: 10px;
+    color: #18191F;
+    
+     
+}
+.players .player .info p{
+    font-size:13px;
+    font-style:normal;
+    font-weight: normal;
+    color: #6C6C6C;
+    
+     
+
+} 
